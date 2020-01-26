@@ -1,0 +1,149 @@
+{
+	"rules": {
+		"ban-ts-ignore": true,
+		"member-access": true,
+		"no-empty-interface": true,
+		"only-arrow-functions": [true, "allow-named-functions"],
+		"prefer-for-of": true,
+		"typedef": [
+			true,
+			"call-signature",
+			"arrow-call-signature",
+			"parameter",
+			"arrow-parameter",
+			"property-declaration",
+			"variable-declaration",
+			"member-variable-declaration",
+			"object-destructuring",
+			"array-destructuring"
+		],
+
+
+		"ban-comma-operator": true,
+		"curly": [true, "ignore-same-line"],
+		"forin": true,
+		"function-constructor": true,
+		"label-position": true,
+		"no-arg": true,
+		"no-async-without-await": true,
+		"no-bitwise": true,
+		"no-conditional-assignment": true,
+		"no-construct": true,
+		"no-duplicate-super": true,
+		"no-duplicate-switch-case": true,
+		"no-duplicate-variable": true,
+		"no-empty": [true, "allow-empty-catch"],
+		"no-eval": true,
+		"no-invalid-template-strings": true,
+		"no-invalid-this": true,
+		"no-misused-new": true,
+		"no-return-await": true,
+		"no-shadowed-variable": true,
+		"no-sparse-arrays": true,
+		"no-string-literal": true,
+		"no-string-throw": true,
+		"no-tautology-expression": true,
+		"no-this-assignment": [true, {"allowed-names": ["^self$"], "allow-destructuring": true}],
+		"no-unsafe-finally": true,
+		"no-var-keyword": true,
+		"prefer-conditional-expression": [true, "check-else-if"],
+		"prefer-object-spread": true,
+		"radix": true,
+		"static-this": true,
+		"switch-default": true,
+		"triple-equals": true,
+		"unnecessary-constructor": [true, {"check-super-calls": true}],
+		"use-isnan": true,
+
+
+		"max-classes-per-file": [true, 1],
+		"max-file-line-count": [true, 300],
+		"no-duplicate-imports": [true, { "allow-namespace-imports": true }],
+		"no-require-imports": true,
+		"prefer-const": true,
+
+
+		"array-type": [true, "array"],
+		"arrow-return-shorthand": true,
+		"binary-expression-operand-order": true,
+		"class-name": true,
+		"comment-format": [
+			true,
+			"check-space",
+			"check-uppercase",
+			"allow-trailing-lowercase"
+		],
+		"comment-type": [true, "singleline", "multiline", "doc"],
+		"encoding": true,
+		"file-name-casing": [true, "kebab-case"],
+		"interface-name": [true, "always-prefix"],
+		"no-unnecessary-callback-wrapper": true,
+		"object-literal-key-quotes": [true, "as-needed"],
+		"object-literal-shorthand": true,
+		"one-line": [
+			true,
+			"check-else",
+			"check-catch",
+			"check-finally",
+			"check-open-brace",
+			"check-whitespace"
+		],
+		"one-variable-per-declaration": [true, "ignore-for-loop"],
+		"prefer-switch": true,
+		"prefer-template": true,
+		"prefer-while": true,
+		"space-before-function-paren": [
+			true,
+			"never"
+		],
+		"switch-final-break": [true, "always"],
+		"unnecessary-else": true,
+		"variable-name": true,
+
+
+		"align": [
+			true,
+			"elements",
+			"members",
+			"parameters",
+			"statements"
+		],
+		"arrow-parens": true,
+		"import-spacing": true,
+		"indent": [
+			true,
+			"tabs",
+			4
+		],
+		"max-line-length": [
+			true,
+			{
+				"limit": 200,
+				"ignore-pattern": "^import |^export {(.*?)}",
+				"check-strings": true,
+				"check-regex": true
+			}
+		],
+		"new-parens": true,
+		"no-consecutive-blank-lines": true,
+		"no-irregular-whitespace": true,
+		"no-trailing-whitespace": [
+			true,
+			"ignore-template-strings",
+			"ignore-comments",
+			"ignore-jsdoc",
+			"ignore-blank-lines"
+		],
+		"number-literal-format": true,
+		"quotemark": [
+			true,
+			"single",
+			"backtick"
+		],
+		"semicolon": [
+			true,
+			"always",
+			"ignore-interfaces"
+		]
+	}
+}
